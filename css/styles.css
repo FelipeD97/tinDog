@@ -1,0 +1,140 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#title {
+    background-color: #80ed99;
+}
+
+/* Navbar  */
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 0 4rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Section 1  */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.phone-image {
+    transform: rotate(30deg);
+    width: 60%;
+}
+
+/* Features  */
+
+#features {
+    padding: 7% 14%;
+}
+
+.feature-item {
+    padding: 4.5%;
+    text-align: center;
+}
+
+.feature-icon {
+    color: #57cc99;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #80ed99;
+    cursor: pointer;
+}
+
+.feature-text {
+    color: #8f8f8f;
+}
+
+/* Testimonial Section  */
+
+#testimonials {
+    background-color: #57cc99;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+/* Press Section  */
+
+#press {
+    background-color: #57cc99;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section  */
+
+#pricing {
+    padding: 7% 14%;
+    text-align: center;
+}
+
+/* Call To Action Section  */
+
+#cta {
+    background-color: #80ed99;
+    padding: 7% 14%;
+    text-align: center;
+}
+
+/* Footer Section  */
+
+#footer {
+    color: #8f8f8f;
+    padding: 7% 14%;
+    text-align: center;
+}
+
+.footer-icons {
+    color: black;
+    justify-content: center;
+}
