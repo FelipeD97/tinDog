@@ -19,6 +19,10 @@ h3 {
     font-weight: 700;
 }
 
+h5 {
+    font-size: 2rem;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -88,7 +92,6 @@ h3 {
 
 #testimonials {
     background-color: #57cc99;
-    padding: 7% 15%;
     text-align: center;
 }
 
@@ -96,6 +99,10 @@ h3 {
     border-radius: 100%;
     margin: 20px;
     width: 10%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 /* Press Section  */
@@ -116,6 +123,14 @@ h3 {
 #pricing {
     padding: 7% 14%;
     text-align: center;
+}
+
+.pricing-button {
+    width: 200px;
+}
+
+.card-text, .pricing-text {
+    color: #8f8f8f;
 }
 
 /* Call To Action Section  */
