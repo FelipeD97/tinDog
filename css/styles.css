@@ -2,33 +2,43 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-h2 {
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 1.5;
-}
-
 h3 {
     font-size: 1.5rem;
-    font-weight: 700;
 }
 
 h5 {
     font-size: 2rem;
 }
 
-.container-fluid {
-    padding: 3% 15%;
+p {
+    color: #8f8f8f;
 }
 
-#title {
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.align-class {
+    text-align: center;
+}
+
+#title, #cta, .card-header {
     background-color: #80ed99;
+}
+
+/* Headings  */
+
+.big-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    padding: 4%;
+}
+
+.testimonial-heading, .pricing-heading, .cta-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
 }
 
 /* Navbar  */
@@ -52,7 +62,7 @@ h5 {
     font-weight: 300;
 }
 
-/* Section 1  */
+/* Intro Section  */
 
 .download-button {
     margin: 5% 3% 5% 0;
@@ -60,18 +70,20 @@ h5 {
 
 .phone-image {
     transform: rotate(30deg);
-    width: 60%;
+    width: 20%;
+    position: absolute;
 }
 
 /* Features  */
 
 #features {
-    padding: 7% 14%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-item {
     padding: 4.5%;
-    text-align: center;
 }
 
 .feature-icon {
@@ -84,15 +96,10 @@ h5 {
     cursor: pointer;
 }
 
-.feature-text {
-    color: #8f8f8f;
-}
-
 /* Testimonial Section  */
 
 #testimonials {
     background-color: #57cc99;
-    text-align: center;
 }
 
 .testimonial-image {
@@ -101,16 +108,11 @@ h5 {
     width: 10%;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 /* Press Section  */
 
 #press {
     background-color: #57cc99;
     padding-bottom: 3%;
-    text-align: center;
 }
 
 .press-logo {
@@ -120,36 +122,27 @@ h5 {
 
 /* Pricing Section  */
 
-#pricing {
-    padding: 7% 14%;
-    text-align: center;
-}
-
 .pricing-button {
     width: 200px;
 }
 
-.card-text, .pricing-text {
-    color: #8f8f8f;
-}
-
-/* Call To Action Section  */
-
-#cta {
-    background-color: #80ed99;
-    padding: 7% 14%;
-    text-align: center;
-}
-
 /* Footer Section  */
 
-#footer {
-    color: #8f8f8f;
-    padding: 7% 14%;
-    text-align: center;
+.footer-icons {
+    color: #212529;
+    margin: 20px 10px;
 }
 
-.footer-icons {
-    color: black;
-    justify-content: center;
+/* Media Queries  */
+
+@media (max-width: 1100px) {
+
+    #title {
+        text-align: center;
+    }
+    .phone-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
 }
